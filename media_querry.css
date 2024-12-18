@@ -1,0 +1,156 @@
+/* Responsive Design */
+@media (max-width: 1280px) {
+ 
+}
+@media (max-width: 1024px) {
+
+  .home-text h1,.home-text p{
+    font-size: 1rem;
+    text-align: center;
+    
+  }
+  .home-image img {
+    margin-right: 2rem;
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+  
+  }
+
+
+
+}
+
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .home-section {
+      flex-direction: column;
+  }
+
+  .home-text h1 {
+      font-size: 2rem;
+      margin-top: 1rem;
+  }
+  .remove-text{
+    display: none;
+  }
+
+  .home-text p {
+      font-size: 0.9rem;
+      text-align: center;
+  }
+
+  .home-image img {
+      width: 300px;
+      height: 300px;
+  }
+  .about-box{
+    width: 90%;
+  }
+  .aboutBoxMIdContainer{
+    width: 90%;
+  }
+  .about-box{
+    /* height: 10vh; */
+    font-size: 1rem;
+  }
+  .aboutBoxMIdContainer{
+    margin-top: 1rem;
+    
+  }
+  .about-info{
+    font-size: .9rem;
+    text-align: center;
+  }
+  .project-container{
+    flex-direction: column;
+    margin:5rem 1rem 1rem 1rem;
+
+  }
+  .info1-container, .info2-container{
+    width: 100%;
+    height: 50%;
+  
+    margin-left: 0;
+  }
+  .project1-info, .project2-info{
+    font-size: .9rem;
+    margin-top: 0;
+  }
+  .proj1-languse, .proj1-languse{
+    margin-bottom: 2.5rem;
+  }
+  .icon{
+    flex-direction: column;
+    bottom: 0;
+  }
+  .contact-description, .socials{
+    font-size: .8rem;
+  }
+
+   .img-container1,.img-container2{
+    all: unset !important;
+  }
+  .info1-container, .info2-container{
+    background: none;
+    margin-top: 0;
+    font-size: .9rem;
+  }.contact-container{
+    flex-direction: column;
+    align-items: center;
+  }.resume{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+  }.contact-details{
+    animation: none;
+    margin: 0;
+  }
+}
+@media (max-width: 425px) {
+
+}
+
+@media (max-width: 1310px){
+  .about-section .about-cont .about-box{
+      width: calc(100% - 10px);
+      margin: 10px 0;
+  }
+  .about-section .about-cont .aboutBoxMIdContainer{
+    width: calc(100% - 10px);
+    margin: 10px 0;
+}
+}
+
+@media (max-width: 1045px){
+ .about-section .about-cont .about-box{
+     width: calc(50% - 10px);
+     margin: 10px 0;
+ }
+ .about-section .about-cont .aboutBoxMIdContainer{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+}
+header ul li{
+    font-size: 1rem;
+ }
+}
+
+@media (max-width: 702px){
+ .about-section .about-cont .about-box{
+     width: 100%;
+ }
+ .about-section .about-cont .aboutBoxMIdContainer{
+    width: 100%;
+}
+ .about-cont .about-box{
+     height: 65vh;
+}
+ .about-cont .aboutBoxMIdContainer{
+    height: 65vh;
+}
+}
